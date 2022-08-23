@@ -1,7 +1,7 @@
 {
-  "name": "@rdeco/core",
-  "version": "3.12.0",
-  "description": "基于响应式的应用开发框架",
+  "name": "@rdecojs/core",
+  "version": "0.0.1",
+  "description": "A frame-agnostic modular code base",
   "keywords": [
     "react",
     "flux",
@@ -18,7 +18,7 @@
     "lib",
     "es"
   ],
-  "repository": "https://github.com/kinop112365362/rdeco",
+  "repository": "https://github.com/kinop112365362/rdecojs",
   "author": "shihong <112365362@qq.com>",
   "license": "MIT",
   "publishConfig": {
@@ -34,8 +34,6 @@
   },
   "dependencies": {
     "deepmerge": "^4.2.2",
-    "lodash.isplainobject": "^4.0.6",
-    "lodash.mergewith": "^4.6.2",
     "rxjs": "^7.4.0",
     "validate-npm-package-name": "^3.0.0"
   },
