@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.2](https://github.com/kinop112365362/rdecojs/compare/@rdecojs/core@0.2.1...@rdecojs/core@0.2.2) (2022-09-15)
+
+
+### Bug Fixes
+
+* **core:** invoke 参数传递错误 ([b9329d5](https://github.com/kinop112365362/rdecojs/commit/b9329d5e568f6e0ac8616e5915ba8d1cc3149fec))
+
+
+
+
+
 ## [0.2.1](https://github.com/kinop112365362/rdecojs/compare/@rdecojs/core@0.2.0...@rdecojs/core@0.2.1) (2022-09-15)
 
 **Note:** Version bump only for package @rdecojs/core
