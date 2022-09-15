@@ -6,3 +6,4 @@ node_modules
 .idea
 .log
 lerna-debug.log
+.parcel-cache
