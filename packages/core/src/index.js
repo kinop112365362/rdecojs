@@ -1,3 +1,2 @@
-export default function hello() {
-  console.log('hello world')
-}
+export { imc } from './imc'
+export { create } from './create'
