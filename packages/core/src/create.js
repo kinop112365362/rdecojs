@@ -3,14 +3,11 @@ import { ExportsStore } from './ExportsStore'
 
 import { createExportSubscriptions } from './createSubscriptions'
 
-function create(pointFunc) {
-  if (!pointFunc.name) {
-    throw new TypeError(`pointFunc 不是具名函数`)
-  }
+function create(name, pointFunc) {
   const exports = pointFunc()
   const exportsStore = new ExportsStore({
     exports,
-    baseSymbol: pointFunc.name,
+    baseSymbol: name,
   })
   const selfSubscription = createExportSubscriptions(exportsStore)
   return () => {

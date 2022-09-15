@@ -17,7 +17,6 @@
     "type": "git",
     "url": "https://gitlab.dc.servyou-it.com/febs/rdeco"
   },
-  "types": "./types",
   "main": "./lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -37,12 +36,17 @@
     "format": "prettier --write \"{src,test}/**/*.{js,ts}\" index.d.ts \"docs/**/*.md\"",
     "lint": "eslint packages/**/src --fix",
     "pretest": "npm run lint",
-    "test": "jest"
+    "test": "jest",
+    "surge": "surge --domain rdecojs.surge.sh",
+    "build:demo": "parcel ./demo/index.js"
   },
   "peerDependencies": {
     "@babel/runtime": "^7.12.1"
   },
   "devDependencies": {
+    "parcel": "^2.7.0",
+    "@rdecojs/core": "0.1.1",
+    "surge": "^0.23.1",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",
     "@babel/plugin-proposal-decorators": "^7.12.1",

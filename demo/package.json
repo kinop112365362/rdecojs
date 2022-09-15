@@ -1,0 +1,16 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "source": "./index.html",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  },
+  "dependencies": {
+    "@rdecojs/core": "^0.1.1",
+    "deepmerge": "^4.2.2"
+  }
+}

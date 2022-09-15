@@ -30,7 +30,7 @@ create(function myFirstModule() {
 })
 ```
 
-将上述代码打包后得到一个 cdn 的入口地址例如 //cdn.com/myFirstModule/index.js
+将上述代码打包后得到一个 cdn 的入口地址例如 //cdn.com/myFirstModule/index.js，例如使用 surge.sh，我们可以很方便的将代码上传 cdn
 
 ### 使用代码
 
@@ -39,7 +39,7 @@ create(function myFirstModule() {
 ```js
 <html>
   <head>
-    <script src="//cdn.com/myFirstModule/index.js"></script>
+    <script src="//my.surge.sh/myFirstModule/index.js"></script>
     <body>
       <script src="./index.js"></script>
     </body>
