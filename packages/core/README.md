@@ -20,14 +20,12 @@ function income(num, resolve) {
   resolve(num + 1)
 }
 
-create(function myFirstModule() {
-  return {
-    getComponent(resolve) {
-      resolve(HelloWorld)
-    },
-    income,
-  }
-})
+create('myFirstModule', () => ({
+  getComponent(resolve) {
+    resolve(HelloWorld)
+  },
+  income,
+}))
 ```
 
 将上述代码打包后得到一个 cdn 的入口地址例如 //cdn.com/myFirstModule/index.js，例如使用 surge.sh，我们可以很方便的将代码上传 cdn
