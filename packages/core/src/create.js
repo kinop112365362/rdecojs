@@ -3,8 +3,8 @@ import { ExportsStore } from './ExportsStore'
 
 import { createExportSubscriptions } from './createSubscriptions'
 
-function create(name, pointFunc) {
-  const exports = pointFunc()
+function create(name, getterFunc) {
+  const exports = getterFunc()
   const exportsStore = new ExportsStore({
     exports,
     baseSymbol: name,
