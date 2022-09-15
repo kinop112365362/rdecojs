@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.2.1](https://github.com/kinop112365362/rdecojs/compare/@rdecojs/core@0.2.0...@rdecojs/core@0.2.1) (2022-09-15)
+
+**Note:** Version bump only for package @rdecojs/core
+
+
+
+
+
 # [0.2.0](https://github.com/kinop112365362/rdecojs/compare/@rdecojs/core@0.1.1...@rdecojs/core@0.2.0) (2022-09-15)
 
 
