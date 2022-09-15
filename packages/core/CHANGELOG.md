@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/kinop112365362/rdecojs/compare/@rdecojs/core@0.1.1...@rdecojs/core@0.2.0) (2022-09-15)
+
+
+### Features
+
+* **core:** 改变 create api 的用法 ([e536f56](https://github.com/kinop112365362/rdecojs/commit/e536f562ee27f43c48a0953d5cba3d0e4a6dc7e7))
+
+
+
+
+
 ## [0.1.1](https://github.com/kinop112365362/rdecojs/compare/@rdecojs/core@0.1.0...@rdecojs/core@0.1.1) (2022-09-15)
 
 **Note:** Version bump only for package @rdecojs/core
