@@ -9,12 +9,10 @@ import '@testing-library/jest-dom/extend-expect'
 import { imc, create } from '@rdecojs/core'
 
 test('imc and create api', async () => {
-  create('helloWorld', function () {
-    return {
-      setup() {
-        console.debug('hello world')
-      },
-    }
-  })
+  create('helloWorld', () => ({
+    setup() {
+      console.debug('hello world')
+    },
+  }))
   imc('helloWorld').setup()
 })
