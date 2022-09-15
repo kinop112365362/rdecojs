@@ -10,9 +10,9 @@ import { imc, create } from '@rdecojs/core'
 
 test('imc and create api', async () => {
   create('helloWorld', () => ({
-    setup() {
-      console.debug('hello world')
+    setup(a, b) {
+      console.debug(a, b)
     },
   }))
-  imc('helloWorld').setup()
+  imc('helloWorld').setup(1, 2)
 })

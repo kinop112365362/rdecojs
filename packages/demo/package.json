@@ -3,14 +3,14 @@
   "version": "1.0.0",
   "source": "./index.html",
   "scripts": {
-    "watch": "parcel watch",
-    "build": "parcel build"
+    "watch": "parcel",
+    "build": "parcel build",
+    "surge": "surge --domain rdecojs.surge.sh"
   },
   "devDependencies": {
     "parcel": "latest"
   },
   "dependencies": {
-    "@rdecojs/core": "^0.1.1",
     "deepmerge": "^4.2.2"
   }
 }

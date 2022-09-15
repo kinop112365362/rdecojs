@@ -37,8 +37,7 @@
     "lint": "eslint packages/**/src --fix",
     "pretest": "npm run lint",
     "test": "jest",
-    "surge": "surge --domain rdecojs.surge.sh",
-    "build:demo": "parcel ./demo/index.js"
+    "surge": "surge --domain rdecojs.surge.sh"
   },
   "peerDependencies": {
     "@babel/runtime": "^7.12.1"
