@@ -2979,6 +2979,15 @@
     chrome-trace-event "^1.0.2"
     nullthrows "^1.1.1"
 
+"@rdecojs/core@0.1.1":
+  version "0.1.1"
+  resolved "http://npm.dc.servyou-it.com/@rdecojs%2fcore/-/core-0.1.1.tgz#6032d97809cbd16472f927e1f7116f10868e894f"
+  integrity sha512-9peOIL1URZ6NOmxnXSuGdow/kwse7fgYTIg6p5SBMAtOpW43DODr7OrqK0FH+jUMHF0T9LouoQBJWD7hlmOy2g==
+  dependencies:
+    deepmerge "^4.2.2"
+    rxjs "^7.4.0"
+    validate-npm-package-name "^3.0.0"
+
 "@rollup/plugin-babel@^5.2.1":
   version "5.3.1"
   resolved "https://registry.npmjs.org/@rollup/plugin-babel/-/plugin-babel-5.3.1.tgz#04bc0608f4aa4b2e4b1aebf284344d0f68fda283"
@@ -8546,6 +8555,26 @@ pacote@^11.2.6:
 parcel@^2.7.0:
   version "2.7.0"
   resolved "https://registry.npmjs.org/parcel/-/parcel-2.7.0.tgz#41fdd3e5c7144d4cf7f1fa3ab8d0ea0d47d31f77"
+  integrity sha512-pRYwnivwtNP0tip8xYSo4zCB0XhLt7/gJzP1p8OovCqkmFjG9VG+GW9TcAKqMIo0ovEa9tT+/s6gY1Qy+BONGQ==
+  dependencies:
+    "@parcel/config-default" "2.7.0"
+    "@parcel/core" "2.7.0"
+    "@parcel/diagnostic" "2.7.0"
+    "@parcel/events" "2.7.0"
+    "@parcel/fs" "2.7.0"
+    "@parcel/logger" "2.7.0"
+    "@parcel/package-manager" "2.7.0"
+    "@parcel/reporter-cli" "2.7.0"
+    "@parcel/reporter-dev-server" "2.7.0"
+    "@parcel/utils" "2.7.0"
+    chalk "^4.1.0"
+    commander "^7.0.0"
+    get-port "^4.2.0"
+    v8-compile-cache "^2.0.0"
+
+parcel@latest:
+  version "2.7.0"
+  resolved "http://npm.dc.servyou-it.com/parcel/-/parcel-2.7.0.tgz#41fdd3e5c7144d4cf7f1fa3ab8d0ea0d47d31f77"
   integrity sha512-pRYwnivwtNP0tip8xYSo4zCB0XhLt7/gJzP1p8OovCqkmFjG9VG+GW9TcAKqMIo0ovEa9tT+/s6gY1Qy+BONGQ==
   dependencies:
     "@parcel/config-default" "2.7.0"

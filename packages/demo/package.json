@@ -1,17 +1,19 @@
 {
   "name": "my-library",
+  "private": "true",
   "version": "1.0.1",
   "source": "./index.html",
   "scripts": {
     "watch": "parcel",
-    "build": "parcel ./index.js",
-    "build:demo": "parcel build",
+    "build:demo": "rm -rf ./dist && parcel build",
     "surge": "surge --domain rdecojs.surge.sh"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "parcel": "latest",
+    "@rdecojs/core": "latest"
   },
   "dependencies": {
     "deepmerge": "^4.2.2"
-  }
+  },
+  "gitHead": "60442822bfe74a017a1384fee75a34bb22642bbb"
 }
