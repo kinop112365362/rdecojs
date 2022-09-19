@@ -1,7 +1,7 @@
 {
   "name": "my-library",
   "private": "true",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "source": "./index.html",
   "scripts": {
     "watch": "parcel",
@@ -10,8 +10,8 @@
     "surge": "surge --domain rdecojs.surge.sh"
   },
   "devDependencies": {
-    "parcel": "latest",
-    "@rdecojs/core": "latest"
+    "@rdecojs/core": "latest",
+    "parcel": "latest"
   },
   "dependencies": {
     "deepmerge": "^4.2.2"
