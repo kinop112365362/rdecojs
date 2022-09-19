@@ -6,7 +6,7 @@ import ReactDOM from 'react-dom'
 import { render, fireEvent, waitFor, screen } from '@testing-library/react'
 import { act } from 'react-dom/test-utils'
 import '@testing-library/jest-dom/extend-expect'
-import { imc, create } from '@rdecojs/core'
+import { imc, create } from '../src'
 
 test('imc and create api', async () => {
   create('helloWorld', () => ({

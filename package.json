@@ -44,7 +44,6 @@
   },
   "devDependencies": {
     "parcel": "^2.7.0",
-    "@rdecojs/core": "0.1.1",
     "surge": "^0.23.1",
     "@babel/cli": "^7.12.1",
     "@babel/core": "^7.12.3",

@@ -5,6 +5,7 @@
   "source": "./index.html",
   "scripts": {
     "watch": "parcel",
+    "build": "echo build",
     "build:demo": "rm -rf ./dist && parcel build",
     "surge": "surge --domain rdecojs.surge.sh"
   },
